@@ -25,7 +25,7 @@ html {
 }
 
 .banner {
-  background-image: "images/andromeda/jpg";
+  background-image: url("images/andromeda/jpg");
   position: relative;
   overflow: hidden;
   max-height: 24em;
@@ -34,5 +34,6 @@ html {
 .banner-content {
   position: absolute;
   bottom: 0;
+  left: 0;
   color: white;
 }
